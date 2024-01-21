@@ -44,7 +44,6 @@
   border: 1px solid #18ab29;
   width: 50%;
   display: inline-block;
-  cursor: pointer;
   color: #ffffff;
   font-family: Arial;
   font-size: 17px;
@@ -54,7 +53,7 @@
 }
 
 .btn-option:hover{
-  background-color: #5cbf2a;
+  background-image: linear-gradient(to bottom right, blue, red);
 }
 
 .btn-option:active{

@@ -22,6 +22,8 @@ export class QuizzComponent implements OnInit {
 
   finished:boolean = false
 
+  themePath:string = ''
+
   constructor() { }
 
   ngOnInit(): void {
@@ -44,7 +46,14 @@ export class QuizzComponent implements OnInit {
   playerChoose(value:string){
     this.answers.push(value)
     this.nextStep()
+  }
 
+  playTheme(result:string){
+    if(result == 'H'){
+      return this.themePath = '../../../assets/sound/horde/horde_theme.mp3'
+    }else{
+      return this.themePath = '../../../assets/sound/alliance/alliance_theme.mp3'
+    }
   }
 
   async nextStep(){
@@ -56,6 +65,7 @@ export class QuizzComponent implements OnInit {
       const finalAnswer:string = await this.checkResult(this.answers)
       this.finished = true
       this.answerSelected = quizz_questions.results[finalAnswer as keyof typeof quizz_questions.results ]
+      this.playTheme(finalAnswer)
     }
   }
 

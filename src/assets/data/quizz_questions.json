@@ -1,55 +1,79 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Horda ou Aliança ?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Em combate, qual arma você escolheria?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Machado", "alias":"H"},
+        {"id": 2, "name":"Espada", "alias":"A"},
+        {"id": 3, "name":"Arco", "alias":"H"},
+        {"id": 4, "name":"Martelo", "alias":"A"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Qual seria seu companheiro de viagem ?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Um lobo fiel", "alias":"H"},
+        {"id": 2, "name":"Um cavalo robusto", "alias":"A"},
+        {"id": 3, "name":"Uma ave de rapina", "alias":"H"},
+        {"id": 4, "name":"Um mecha inteligente", "alias":"B"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Ao entrar na batalha qual sua atitude ?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Enfrentar diretamente o inimigo", "alias":"H"},
+        {"id": 2, "name":"Utilizar táticas de surpresa e subterfúgio", "alias":"H"},
+        {"id": 3, "name":"Bolar um plano para a situação", "alias":"A"},
+        {"id": 4, "name":"Formar primeiro uma barreira de defesa", "alias":"A"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual a maior qualidade dos seus aliados ?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Diplomacia", "alias":"A"},
+        {"id": 2, "name":"Lealdade", "alias":"H"},
+        {"id": 3, "name":"Coragem", "alias":"A"},
+        {"id": 4, "name":"Astúcia", "alias":"H"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Que qualidade você considera mais importante para superar desafios ?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Força Bruta e Determinação", "alias":"H"},
+        {"id": 2, "name":"Cooperação", "alias":"A"},
+        {"id": 2, "name":"Adaptabilidade e Destreza", "alias":"H"},
+        {"id": 2, "name":"Nobreza e Virtude", "alias":"A"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Que tipo de magia você usaria ?",
+      "options":[
+        {"id": 1, "name":"Magia Sombria e Elemental", "alias":"H"},
+        {"id": 2, "name":"Magia Arcana e Encantamentos", "alias":"A"},
+        {"id": 2, "name":"Magia da Natureza e de Cura", "alias":"H"},
+        {"id": 2, "name":"Magia Sagrada e de Proteção", "alias":"A"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Em uma expedição, qual papel você escolheria ?",
+      "options":[
+        {"id": 1, "name":"O gerreiro na linha de frente", "alias":"H"},
+        {"id": 2, "name":"O suporte, curando e inspirando seus aliados", "alias":"A"},
+        {"id": 2, "name":"O batedor furtivo, explorando o caminho à frente", "alias":"H"},
+        {"id": 2, "name":"O conselheiro estrategista, planejando e coordenando", "alias":"A"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você é um membro da Aliança!",
+    "H": "Você é um membro da Horda!"
   }
 }

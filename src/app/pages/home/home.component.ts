@@ -10,6 +10,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    alert('Alerta de Volume! Reduza o volume do áudio!')
   }
 
 }
